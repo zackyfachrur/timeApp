@@ -18,3 +18,9 @@ C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\refint\DateApp.dll
 C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\DateApp.pdb
 C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\DateApp.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\ref\DateApp.dll
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\WindowLogin.g.cs
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\LENOVO\source\repos\DateApp\obj\Debug\net6.0-windows\WindowLogin.baml

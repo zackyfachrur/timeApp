@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\LENOVO\source\repos\DateApp\App.xaml
-11407045341
+4875036312
 
-4-491627285
+8432487371
 194961888959
-MainWindow.xaml;
+MainWindow.xaml;Window1.xaml;Window2.xaml;WindowLogin.xaml;
 
 False
 

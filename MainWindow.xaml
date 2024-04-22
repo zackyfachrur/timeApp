@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DateApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
         <GroupBox x:Name="RegisterGroup" Header="Register Your Account 👷‍♀️" Margin="253,65,253,41" FontFamily="JetBrains Mono" FontSize="14" Width="294" Height="328">
             <Grid x:Name="RegisterGrid">
@@ -41,49 +41,6 @@
                 </Button>
                 <Label x:Name="LoginQuestionLabel" Content="Do You Have Account ?" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="10" FontWeight="Bold"/>
                 <PasswordBox x:Name="RegisterPasswordText" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Width="178" FontStretch="Condensed" PasswordChar="*" FontStyle="Oblique" FontWeight="Light">
-                    <PasswordBox.SelectionBrush>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black" Offset="1"/>
-                            <GradientStop Color="#FFE60808" Offset="0"/>
-                        </LinearGradientBrush>
-                    </PasswordBox.SelectionBrush>
-                </PasswordBox>
-            </Grid>
-        </GroupBox>
-        <GroupBox x:Name="LoginGroup" Header="Login Your Account 🧑" Margin="253,65,253,41" FontFamily="JetBrains Mono" FontSize="14" Width="294" Height="328">
-            <Grid x:Name="LoginGrid">
-                <TextBox x:Name="LoginNameText" HorizontalAlignment="Center" Margin="0,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontFamily="JetBrains Mono" FontSize="14">
-                    <TextBox.SelectionBrush>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black" Offset="1"/>
-                            <GradientStop Color="#FFE60808" Offset="0"/>
-                        </LinearGradientBrush>
-                    </TextBox.SelectionBrush>
-                </TextBox>
-                <Label x:Name="LoginNameLabel" Content="Name" HorizontalAlignment="Left" Margin="52,32,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="14"/>
-                <TextBox x:Name="LoginEmailText" HorizontalAlignment="Center" Margin="0,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="178" FontFamily="JetBrains Mono" FontSize="14">
-                    <TextBox.SelectionBrush>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                            <GradientStop Color="Black" Offset="1"/>
-                            <GradientStop Color="#FFE60808" Offset="0"/>
-                        </LinearGradientBrush>
-                    </TextBox.SelectionBrush>
-                </TextBox>
-                <Label x:Name="LoginEmailLabel" Content="Email" HorizontalAlignment="Left" Margin="52,94,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="14"/>
-                <Label x:Name="LoginPasswordLabel" Content="Password" HorizontalAlignment="Left" Margin="52,157,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="14"/>
-                <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Center" Margin="0,245,0,0" VerticalAlignment="Top" Width="90" FontFamily="JetBrains Mono" FontSize="14" Foreground="White" BorderBrush="Black" BorderThickness="0.3,0.3,0.3,0.3" ClipToBounds="True" Click="LoginButton_Click">
-                    <Button.Effect>
-                        <DropShadowEffect/>
-                    </Button.Effect>
-                    <Button.Background>
-                        <LinearGradientBrush EndPoint="0,1" StartPoint="1,0">
-                            <GradientStop Color="Black" Offset="1"/>
-                            <GradientStop Color="#FFF90606"/>
-                        </LinearGradientBrush>
-                    </Button.Background>
-                </Button>
-                <Label x:Name="RegisterQuestionLabel" Content="Don't Have Account ?" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="10" FontWeight="Bold"/>
-                <PasswordBox x:Name="LoginPasswordText" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Width="178" FontStretch="Condensed" FontStyle="Oblique" FontWeight="Light" PasswordChar="*">
                     <PasswordBox.SelectionBrush>
                         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                             <GradientStop Color="Black" Offset="1"/>
